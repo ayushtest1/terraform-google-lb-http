@@ -17,6 +17,7 @@
 variable "project" {
   description = "The project to deploy to, if not set the default provider project is used."
   type        = string
+  default = "caramel-hallway-264914"
 }
 
 variable "create_address" {
